@@ -1,2 +1,47 @@
 # Bank-Marketing-DSML-Project
 The banking sector is increasingly leveraging data-driven strategies to enhance customer engagement and optimize marketing efforts. This project aims to predict whether clients of a Portuguese banking institution will subscribe to a term deposit based on data from direct marketing campaigns conducted via phone calls
+
+
+Title of ML project
+Predicting Term Deposit Subscriptions
+(A Machine Learning Approach to Optimize Direct Marketing Campaigns for a Portuguese Banking Institution)
+2 - Objective
+To develop an accurate machine learning model for predicting client subscriptions to term deposits based on data from direct marketing campaigns conducted by a Portuguese banking institution.
+3 - Data Description
+Source : UCI Machine Learning Repository (Bank Marketing Dataset)
+Features :
+Age: Age of the client (integer)
+
+Job: Type of job (categorical: 'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management', 'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed', 'unknown')
+
+Marital Status: Marital status of the client (categorical: 'divorced', 'married', 'single', 'unknown')
+
+Education Level: Education level of the client (categorical: 'basic.4y', 'basic.6y', 'basic.9y', 'high.school', 'illiterate', 'professional.course', 'university.degree', 'unknown')
+
+Default: Whether the client has credit in default (binary: 'yes', 'no')
+
+Balance: Average yearly balance in euros (integer)
+
+Housing Loan: Whether the client has a housing loan (binary: 'yes', 'no')
+
+Personal Loan: Whether the client has a personal loan (binary: 'yes', 'no')
+
+Contact: Type of communication used to contact the client (categorical: 'cellular', 'telephone')
+
+Day of Week: Last contact day of the week (categorical: 'mon', 'tue', 'wed', 'thu', 'fri')
+
+Month: Last contact month of the year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
+
+Duration: Duration of the last contact in seconds (integer)
+
+Campaign: Number of contacts performed during this campaign for this client (integer)
+
+Pdays: Number of days since the client was last contacted from a previous campaign (-1 means the client was not previously contacted) (integer)
+
+Previous: Number of contacts performed before this campaign for this client (integer)
+
+Poutcome: Outcome of the previous marketing campaign (categorical: 'failure', 'nonexistent', 'success')
+
+Target Variable (y): Whether the client subscribed to a term deposit (binary: 'yes', 'no')
+
+This dataset provides a comprehensive view of client demographics, financial status, and marketing interactions, which are essential for predicting term deposit subscriptions.
